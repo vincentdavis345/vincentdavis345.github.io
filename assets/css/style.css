@@ -387,17 +387,11 @@ html, body {
   margin: 0;
 }
 
-/* Add a red background color to navigation links on hover */
-.navbar a:hover, .subnav:hover .subnavbtn {
-  background-color: red;
-}
-
 /* Style the subnav content - positioned absolute */
 .subnav-content {
   display: none;
-  position: absolute;
+  position: relative;
   left: 0;
-  background-color: red;
   width: 100%;
   z-index: 1;
 }
@@ -409,11 +403,6 @@ html, body {
   text-decoration: none;
 }
 
-/* Add a grey background color on hover */
-.subnav-content a:hover {
-  background-color: #eee;
-  color: black;
-}
 
 /* When you move the mouse over the subnav container, open the subnav content */
 .subnav:hover .subnav-content {
