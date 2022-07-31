@@ -378,7 +378,7 @@ html, body {
 /* Style the subnav content - positioned absolute */
 .subnav-content {
   display: none;
-  position: relative;
+  position: absolute;
   left: 0;
   width: 100%;
   z-index: 1;
